@@ -1,0 +1,11 @@
+deps:
+  - apt update -y
+  - apt upgrade -y
+  - apt install -y python3
+daemons: []
+run: python3 main.py
+timeout: 300000
+env: {}
+minWorkers: 0
+maxWorkers: 20
+maxStorage: 500
